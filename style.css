@@ -1,0 +1,616 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#032D3D ;
+    padding: 20px 30px;
+    position: fixed;
+    width: 100%;
+   color: #95ACBA;
+   z-index: 1;
+}
+nav .nav-menu a{
+    color: #95ACBA;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 1rem;
+}
+.nav1 ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.humburger {
+    display: none;
+    cursor: pointer;
+}
+
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-color: #0088a9;
+    transition: all 0.3s ease-in-out;
+    border-radius: 1rem;
+}
+
+
+/*---------background-section---------*/
+
+.bg-section{
+    background-image: url(https://t3.ftcdn.net/jpg/05/93/29/50/360_F_593295067_2SvEv1yO5R5JZPtnE4AHAun5js3MrTnp.jpg);
+    background-repeat: no-repeat;
+    min-height: 700px;
+    background-size: 100%;
+    padding: 2rem 10%;
+}
+.back-content{
+    margin-top: 10rem;
+    box-sizing: 25px;
+}
+.back1{
+    background-color: #18566F;
+    height: 400px;
+    width: 400px; 
+    padding: 10px 20px;
+   cursor: pointer;
+   color: #95ACBA;
+   z-index: 1;
+}
+.back1:hover{
+    background-color: #032D3D;
+    border: 2px solid ;
+    color: white;
+}
+.back1 h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 2rem;
+    
+}
+.back1 h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+.back1 p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top:1rem ;
+}
+.back1 button{
+    padding: 10px 20px;
+    margin-top: 1.5rem;
+    background-color: transparent;
+    border: 2px solid #95ACBA;
+    color: #95ACBA;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.back1 button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+       /*----------popular products-----------*/
+
+.popular-content{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem 10%;
+}
+.popular p{
+    font-size: 18px;
+    font-weight: 700px;
+    margin-top: 1rem;
+    color: rgb(51, 50, 50);
+}
+.product ul{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.product ul li{
+    list-style: none;
+}
+
+        /*--------------sofa-section--------------*/
+        .sofa-section{
+            display: flex;
+            gap: 2rem;
+            padding: 2rem 10%;
+            cursor: pointer;
+        }
+        .sofa{
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            border-radius: 5px;
+            border: 2px solid transparent;
+        }
+        .sofa:hover{
+            border: 2px solid #032D3D;
+
+        }
+        .sofa .image img{
+            height: 300px;
+            width: 100%;
+        }
+        .sofa h4{
+            font-size: 20px;
+            margin-top: 1rem;
+            font-weight: 500;
+            padding: 10px;
+            color: darkslategray;
+        }
+        .sofa h4:hover{
+            color: #032D3D;
+        }
+        .sofa p{
+            margin-top: 1rem;
+            font-size: 18px;
+            padding: 10px;
+            color: darkslategray;
+        }
+        .sofa p:hover{
+            color: #032D3D;
+        }
+    
+        /*--------------best-section---------------*/
+
+        .best-section{
+            margin-top: 5rem;
+            background-color: #9EB5C3;
+            color: #032D3D;
+        }
+
+        .best-content{
+            display: flex;
+            gap: 5rem;
+        }
+        .furni1{
+            margin-top: 5rem;
+        }
+        .furni1 h1{
+            font-size: 3rem;
+        }
+        .furni1 p{
+            margin-top: 1rem;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .furni1 button{
+            padding: 10px 20px;
+            margin-top: 1rem;
+            border: 2px solid #1A4B64;
+            border-radius: 5px;
+            background-color: transparent;
+            color: #032D3D;
+        }
+        .furni1 button:hover{
+            background-color: #032D3D;
+            color: white;
+        }
+
+        /*--------------PRODUCT-section------------*/
+
+        .product-section{
+            text-align: center;
+            margin-top: 5rem;
+        }
+        .product h1{
+         font-size: 900;
+        }
+        .product p{
+            font-size: 18px;
+            margin-top: 1rem;
+        }
+
+        /*----------chair-section------------*/
+        .chair-section{
+            margin-top: 5rem;
+        }
+        .chair-content{
+            display: flex;
+            padding: 2rem 10%;
+            gap: 4rem;
+        }
+        .chair-content .image{
+
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+            border: 2px solid #032D3D;
+        }
+        .chair-content .image img{
+            width: 100%;
+            height: 300px;
+        }
+    .image h4{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .image p{
+        padding: 10px;
+        
+    }
+    /*-----------button-hover----------*/
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    padding: 10px 20px;
+    font-size: 19px;
+    color: #032D3D;
+    border: 2px solid #032D3D;
+}
+.btn button:hover{
+    background-color: #032D3D;
+    color: white;
+}
+    /*--------------instagram-section--------------*/
+.insta-section{
+    margin-top: 5rem;
+}
+    .insta-content{
+        display: flex;
+        padding: 1rem 5%;
+        background-color: silver;
+       
+    }
+    .logo1 i{
+        font-size: 3rem;
+        color: #032D3D;
+    }
+    .logo1 h1{
+        color: #032D3D;
+        margin-top: 1rem;
+    }
+    .logo1 p{
+        color: #032D3D;
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+
+    .insta1{
+        display: flex;
+    }
+  .insta1 .image img{
+        width: 100%;
+        min-height: 400px;
+    }
+    .logo1 button{
+        padding: 10px 20px;
+        margin-top: 1rem;
+        border: 2px solid #032D3D;
+        color: #032D3D;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    .logo1 button:hover{
+        background-color: #032D3D;
+        color: white;
+    }
+   
+    /*-----------top-pick-------------*/
+
+    .top-content{
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    /*------------Daynning-section------------*/
+
+    .day-content{
+        display: flex;
+        gap: 2rem;
+        padding: 2rem 10%;
+        text-align: center;
+        color: #032D3D;
+        
+    }
+    .day-content .images:hover{
+        border: 2px solid #032D3D;
+    }
+    .day-content .images{
+        border: 2px solid transparent;
+    }
+    .day-content .images img{
+        width: 100%;
+        height: 400px;
+    }
+    .day-content h4{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .day-content p{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    /*---------------button-section-------------*/
+
+    .btn1{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .btn1 button{
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: 2px solid #032D3D;
+        border-radius: 5px;
+        color: #032D3D;
+    }
+    .btn1 button:hover{
+        color: white;
+        background-color: #032D3D;
+    }
+
+    /*-----------icon2-section---------*/
+
+    .icon2-section{
+        margin-top: 5rem;
+        background-color: #9EB5C3;
+        padding: 3rem;
+    }
+    .icon2-content{
+        display: flex;
+        padding: 2rem 10%;
+        justify-content: space-between;
+    }
+    .icon2-content .icon2 i{
+        font-size: 3rem;
+        color: #032D3D;
+    }
+    .icon2-content h4{
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+    .icon2-content p{
+        font-size: 15px;
+        margin-top: 1rem;
+    }
+
+    /*-------------footer-section-------------*/
+    .foot-section{
+        background-color: #032D3D;
+        padding: 6rem;
+        color: #9EB5C3;
+    }
+    .foot-content{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 5%;
+    }
+
+    .logo2 h1{
+        font-size: 2rem;
+    }
+    .logo2 p{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .logo2 i{
+        font-size: 2rem;
+        margin-top: 20px;
+        flex-direction: row;
+        margin: 1rem;
+    }
+    .links h3{
+        font-size: 1.5rem;
+    }
+    .links ul{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .links ul li{
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    .Shop h3{
+        font-size: 1.5rem;
+    }
+    .Shop ul{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .Shop ul li{
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    .Pertners h3{
+        font-size: 1.5rem;
+    }
+    .Pertners ul{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .Pertners ul li{
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+   
+    /*-------------media-qurerry-------------*/
+
+    @media(max-width:708px){
+
+        
+        .humburger {
+            display: block;
+    
+        }
+    
+        .humburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+    
+        .humburger.active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+    
+        .humburger.active .bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+    
+        .nav-menu {
+            margin: 1rem;
+            position: fixed;
+            left: -100%;
+            top: 70px;
+            flex-direction: column;
+            /* background-color: #f3f3f3; */
+            border: 2px solid #18566F;
+            width: 91%;
+            height: 35rem;
+            /* width: 100%;
+            height: 100%; */
+            text-align: center;
+            transition: 0.3s;
+            padding: 2rem;
+            border-radius: 5px;
+            display: flex;
+            gap: 4rem;
+            backdrop-filter: blur(10px);
+            justify-content: center;
+            z-index: 1;
+            font-size: 1.4rem;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        .nav-menu a:hover{
+            color: #032D3D;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    
+        .nav-menu.active {
+            left: 0;
+        }
+
+        .bg-section{
+            background-size: cover;
+        }
+        .back1{
+            height: 400px;
+            width: 350px;
+        }
+        .back1 h3{
+            font-size: 20px;
+            
+        }
+        .back1 h1{
+            font-size: 2rem;
+        }
+        .back1 p{
+            font-size: 18px;
+        }
+
+        .popular h1{
+            font-size: 2rem;
+        }
+        .popular p{
+            font-size: 15px;
+        }
+        .product ul{
+           
+            flex-direction: row;
+            
+        }
+        .product ul li{
+            font-size: 15px;
+                
+        }
+
+        .sofa-section{
+            flex-direction: column;
+        }
+
+        .best-content{
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .fruni img{
+            height: 400px;
+            width: 400px;
+        }
+        .furni1{
+            padding: 20px;
+        }
+        .furni1 h1{
+            font-size: 2rem;
+        }
+        .furni1 p{
+            font-size: 15px;
+        }
+
+        .chair-content{
+            flex-direction: column;
+        }
+
+        .insta-content{
+            flex-direction: column;
+        }
+        .insta1{
+            flex-direction: column;
+            margin-top: 1rem;
+        }
+        
+        .day-content{
+            flex-direction: column;
+        }
+        .icon2-content{
+            flex-direction: column;
+        }
+
+
+        .foot-section{
+            padding: 2rem;
+        }
+        .foot-content{
+            flex-direction: column;
+        }
+
+        .logo2 i{
+            font-size: 20px;
+        }
+
+        .links{
+            margin-top: 1rem;
+        }
+
+        .Shop {
+            margin-top: 1.5rem;
+        }
+
+        .Pertners{
+            margin-top: 1.5rem;
+        }
+
+        .bg-section{
+            min-height: 700px;
+            padding: 1rem 5%;
+        }
+        .back-content{
+            margin-top: 5rem;
+            box-sizing: 25px;
+        }
+
+
+
+        
+        
+            
+    }
