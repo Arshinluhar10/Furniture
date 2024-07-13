@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
 }
 nav{
     display: flex;
@@ -505,7 +510,7 @@ nav .nav-menu a{
         }
         .back1{
             height: 400px;
-            width: 350px;
+            width: 300px;
         }
         .back1 h3{
             font-size: 20px;
@@ -526,7 +531,8 @@ nav .nav-menu a{
         }
         .product ul{
            
-            flex-direction: row;
+            flex-wrap: wrap;
+
             
         }
         .product ul li{
@@ -608,7 +614,9 @@ nav .nav-menu a{
             box-sizing: 25px;
         }
 
-
+        .fruni img{
+            width: 100%;
+        }
 
         
         
